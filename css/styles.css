@@ -1,0 +1,113 @@
+body{
+    margin: 0; /* remove default browser margin that leaves a border around sections */
+    font-family: josefin sans, sans-serif;
+    background-color: #e8e8ed66;
+}
+#title{
+    background-image: linear-gradient(to bottom,#ffffffcc, #e8e8ed66);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features{
+    width: 5px;
+}
+.texts-introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texts-introduction p{
+    width: 35ch;
+    overflow-wrap: break-word;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.profile-picture{
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.subtitle{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.my-skills-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.skills p{
+    width: 35ch;
+    overflow-wrap: break-word;
+}
+.title, .texts-introduction h2, .skills h2{
+    font-family: "Betania Patmos", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffcc;
+    margin-bottom: 10px;
+}
+#contact div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 75px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 10px;
+
+}
+p{
+    margin-top: 5px;
+}
+.subtitle{
+    margin-bottom: 2px;
+}
+img {
+    border-radius: 8px;
+}
